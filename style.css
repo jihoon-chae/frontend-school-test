@@ -91,6 +91,16 @@ body {
   color: #617199;
 }
 
-.container-button .start-button {
-  
+.container-button .start-button::before {
+  content: url("./img/icon-start.png");
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+
+.container-button .reset-button::before {
+  content: url("./img/icon-reset-disabled.png");
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: -2px;
 }
